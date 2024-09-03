@@ -1,22 +1,28 @@
 ---
-title: "Schnorr, MuSig, FROST and more"
-transcript_by: kouloumos via tstbtc v1.0.0 --needs-review
-media: https://podcasters.spotify.com/pod/show/chaincode/episodes/Pieter-Wuille-and-Tim-Ruffing--Schnorr--MuSig--FROST-and-more---Episode-26-e1sav0l
-tags: ['cryptography', 'musig', 'schnorr-signatures']
-speakers: ['Pieter Wuille', 'Tim Ruffing']
-categories: ['podcast']
-summary: "Pieter Wuille and Tim Ruffing treat us to a conversation about Schnorr, multi-signatures, MuSig, and more. We covered a lot so this is part one of a two part conversation."
+title: 'Schnorr, MuSig, FROST and more'
+transcript_by: 'markon1-a via review.btctranscripts.com'
+media: 'https://podcasters.spotify.com/pod/show/chaincode/episodes/Pieter-Wuille-and-Tim-Ruffing--Schnorr--MuSig--FROST-and-more---Episode-26-e1sav0l'
+date: '2022-12-16'
+tags:
+  - 'cryptography'
+  - 'musig'
+  - 'schnorr-signatures'
+speakers:
+  - 'Pieter Wuille'
+  - 'Tim Ruffing'
+categories:
+  - 'podcast'
+summary: 'Pieter Wuille and Tim Ruffing treat us to a conversation about Schnorr, multi-signatures, MuSig, and more. We covered a lot so this is part one of a two part conversation.'
 episode: 26
-date: 2022-12-16
 additional_resources:
--   title: MuSig
-    url: https://bitcoinops.org/en/topics/musig/
--   title: Yannick Seurin
-    url: http://yannickseurin.free.fr/
--   title: Bellare-Neven
-    url: https://btctranscripts.com/bitcoin-core-dev-tech/2018-03-05-bellare-neven/
--   title: FROST
-    url: https://eprint.iacr.org/2020/852.pdf
+  - title: 'MuSig'
+    url: 'https://bitcoinops.org/en/topics/musig/'
+  - title: 'Yannick Seurin'
+    url: 'http://yannickseurin.free.fr/'
+  - title: 'Bellare-Neven'
+    url: 'https://btctranscripts.com/bitcoin-core-dev-tech/2018-03-05-bellare-neven/'
+  - title: 'FROST'
+    url: 'https://eprint.iacr.org/2020/852.pdf'
 ---
 Speaker 0: 00:00:00
 
@@ -27,7 +33,6 @@ Hey Jonas, good to be back.
 Speaker 1: 00:00:19
 
 So while you were out being the Bitcoin ambassador that we depend on you to be, I was here stuck in the cold talking to Tim and Peter and I thought it was a good conversation.
-Yeah.
 I don't think I let you down too much.
 
 Speaker 0: 00:00:32
@@ -43,7 +48,7 @@ We talked about ideas that are a little further out in terms of batch verificati
 
 Speaker 0: 00:00:54
 
-So everything, like everything that pertains to taproot and since then?
+So like everything that pertains to taproot and since then?
 
 Speaker 1: 00:00:58
 
@@ -61,12 +66,13 @@ Speaker 1: 00:01:05
 
 Yeah, no, I really enjoyed the conversation and was even able to follow it.
 Anyway, hope you enjoyed listening.
-♪♪ Welcome, Tim and Peter.
+Welcome, Tim and Peter.
 Very excited to have you.
-Unfortunately, merch is not here to help me.
+Unfortunately, Mark is not here to help me.
 I could really use this help today, but this is what we've got.
 So we're going to dive right in.
-And the first question is for both of you, When do you need to roll your own crypto?
+The first question is for both of you.
+When do you need to roll your own crypto?
 
 ## When to roll your own cryptography
 
@@ -84,7 +90,7 @@ So I think it's more advice about you should be aware of what level you're targe
 Are you experimenting?
 Are you learning?
 Are you talking about actually deploying something in production at what scale, at what level?
-And there are different, you know, look at feedback, know who to ask, know that there are lots of smart people out there.
+And there are different, look at feedback, know who to ask, know that there are lots of smart people out there.
 
 Speaker 2: 00:02:34
 
