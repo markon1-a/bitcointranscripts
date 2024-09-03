@@ -96,7 +96,7 @@ Speaker 2: 00:02:34
 
 That's a pretty good answer actually.
 The exact same saying came to my mind when you asked the question.
-But yeah, it's like, of course, I mean, I also heard this rule, for example, when I took a cryptography course at university and they told us, okay, this is how the stuff works, but don't do it.
+I also heard this rule, for example, when I took a cryptography course at university and they told us, okay, this is how the stuff works, but don't do it.
 And it's like very unsatisfactory, right?
 Because it feels like, okay, but where else should I learn this?
 I mean, if I learned this at university...
@@ -107,13 +107,13 @@ You're supposed to be the expert.
 
 Speaker 2: 00:03:05
 
-I mean, yeah, but I mean, this was just some undergrad course, right?
+I mean, this was just some undergrad course, right?
 Of course, it's different after you completed the PhD, maybe, but at some point, I guess you get the feeling of when you are at the point when you can do it.
 And of course, yeah, get feedback, talk to other people and talk to.
 
 Speaker 0: 00:03:20
 
-And it's more a learning what level of assurance you need to get from others and not just a, okay, now I am confident enough to judge my own constructions.
+And it's more a learning what level of assurance you need to get from others and not just, okay, now I am confident enough to judge my own constructions.
 
 Speaker 1: 00:03:34
 
@@ -132,10 +132,11 @@ And I guess the opposite is also true.
 
 Speaker 0: 00:04:32
 
-Yeah, and I think even expectations around this differ, because if you go up this ladder from very theoretical, low-level ideas to closer to real worlds, There is some threshold where people stop calling it cryptography, where it becomes security engineering or something like that.
+Yeah, and I think even expectations around this differ, because if you go up this ladder from very theoretical, low-level ideas to closer to real worlds.
+There is some threshold where people stop calling it cryptography, where it becomes security engineering or something like that.
 And that boundary is essentially arbitrary.
 Because things may go wrong just as well at the higher levels as in the lower levels and in fact in practice they more often break at higher levels.
-Maybe precisely because there is less of an academic expectation to like it is much more It feels much more acceptable for people to like, okay, I'm gonna build some software that uses some encryption and hashes and off-the-shelf building blocks together and think these building blocks are secure because they come from good cryptography.
+Maybe precisely because there is less of an academic expectation to like it is much more It feels much more acceptable for people to like, okay, I'm going build some software that uses some encryption and hashes and off-the-shelf building blocks together and think these building blocks are secure because they come from good cryptography.
 I can arbitrarily put them together and build a system.
 And these things sometimes break because the manner in which you compose them matters.
 
@@ -149,7 +150,7 @@ In the end, you get an attack.
 Speaker 1: 00:05:55
 
 So you said early that paying attention to feedback from others is really important.
-And so What is the interaction between the work that you do on Bitcoin and the wider applied cryptography community?
+What is the interaction between the work that you do on Bitcoin and the wider applied cryptography community?
 
 Speaker 2: 00:06:08
 
