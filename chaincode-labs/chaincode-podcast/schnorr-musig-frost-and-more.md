@@ -157,7 +157,7 @@ Speaker 2: 00:06:08
 It kind of depends again on what the concrete thing is.
 But I guess a lot of work that I recently did was, I mean, I come basically from an academic background, right?
 I have a PhD in computer science with a focus on cryptography.
-So it's pretty standard and it should be the case like if that if you come up with a new cryptographic construction, you write it up in a proper paper, you try to get it published, which means you collect feedback from other researchers.
+So it's pretty standard and it should be the case like that if you come up with a new cryptographic construction, you write it up in a proper paper, you try to get it published, which means you collect feedback from other researchers.
 They hopefully look at it, they hopefully look at your arguments, at your security proofs.
 
 Speaker 0: 00:06:41
